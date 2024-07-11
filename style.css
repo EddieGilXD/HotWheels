@@ -28,3 +28,36 @@ header {
 .menuContainer .menuPrincipal .menu ul .li {
     
 }
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa; /* Fondo blanco de la barra de búsqueda */
+    border-radius: 25px; /* Bordes redondeados */
+    padding: 5px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    width: 300px;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+}
+
+.search-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0 10px;
+    color: #005bbb; /* Color del ícono de búsqueda */
+}
+
+.search-button svg {
+    width: 24px;
+    height: 24px;
+}
