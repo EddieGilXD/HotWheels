@@ -1,0 +1,30 @@
+header {
+    background-color: #0057B8;
+}
+
+.menuContainer {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: row;
+    width: auto;
+    height: 80px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.menuContainer .menuPrincipal .menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: auto;    
+    color: white;
+} 
+
+.menuContainer .menuPrincipal .menu ul .li {
+    
+}
