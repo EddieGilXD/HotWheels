@@ -1,7 +1,8 @@
+/*Version de desktop*/
+/*Header*/
 header {
     background-color: #0057B8;
 }
-
 .menuContainer {    
     display: flex;
     justify-content: space-between;
@@ -32,8 +33,8 @@ header {
 .search {
     display: flex;
     align-items: center;
-    background-color: #f8f9fa; /* Fondo blanco de la barra de búsqueda */
-    border-radius: 25px; /* Bordes redondeados */
+    background-color: #f8f9fa; 
+    border-radius: 25px;
     padding: 5px 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -54,10 +55,166 @@ header {
     background: none;
     cursor: pointer;
     padding: 0 10px;
-    color: #005bbb; /* Color del ícono de búsqueda */
+    color: #005bbb;
 }
 
 .search-button svg {
     width: 24px;
     height: 24px;
+}
+
+/*Main*/
+/*Seccion 1*/
+.contenedorDeSeccion1 {
+    width: 100%;
+    display: flex;
+    
+}
+.contenedorDeSeccion1 .imagenDeFondo{
+    position: relative;   
+}
+    
+
+.contenedorDeSeccion1 .imagenDeFondo img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;       
+}
+
+.textoDelWrapper .texto {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.textContainer {
+    padding-top: 5%; 
+    margin-top: 12%;   
+    margin-left: 10%;
+    width: 35%;
+    height: 100%;
+}
+
+.wrapper .textoDelWrapper{
+    width: 100%;    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1rem;
+}
+.wrapper .textoDelWrapper .textoImagenWrapper img{
+    width: 100%;    
+    height: auto;    
+}
+
+
+.bottonDelWrapper .bottonDeComprarAhora {
+    background-color: #F78832;
+    color: #f8f9fa;
+    font-size: 1rem;
+    border: 0;
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    
+}
+
+/*Seccion 2*/
+.seccionDeCategorias {
+    width:auto;
+    height: auto;
+    background-color:#F8F6F5;
+    padding: 3%;
+}
+
+.contedorCategorias {
+    
+}
+
+.imagenesCategorias {        
+    width: 100%;
+    max-width: 60%;
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;    
+    align-items: center;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;    
+}
+
+.imagenesCategorias {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.imagenesCategorias img{
+    width: 100%;
+    height: auto;
+}
+
+.categoriasTitulo .titulC {
+    color: #0E5FAC;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin: 0;
+}
+/* Seccion 3*/
+.seccion3 {
+    width: auto; 
+    height: auto;   
+    display: flex;
+    align-items: center;
+}
+
+.seccion3 .banner3 img {
+    width: 100%;
+    height: auto;    
+}
+
+.textoBanner3 {
+    position: absolute;
+    width: 100%;
+    max-width: 27%;
+}
+
+.tituloSeccion3 {
+    font-family: 'NombreDeLaFuente', sans-serif;
+    font-size: 2rem;
+    font: bold;
+    color: #93D500;    
+}
+
+.textoSeccion3 {
+    font-family: 'NombreDeLaFuente', sans-serif;
+    font-size: 1rem;
+    font: bold;
+    color: #93D500;
+}
+
+.seccion3 .textoBanner3{ 
+    margin-left: 100px;
+    margin-top: auto;
+    
+}
+
+.seccion3Boton {
+    border: 0;
+    background-color: #93D500;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
