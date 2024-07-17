@@ -218,3 +218,145 @@ header {
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+/*Footer*/
+/*Seccion 1*/
+.footer {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.seccion1Footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.matelLogo {
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.matelLogo img{
+    width: 100%;
+    height: auto;
+}
+
+.subscribe{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorDeSubscribe {
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0057B8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;    
+}
+
+.contenedorDeSubscribe p{
+    width: 25%;
+    margin: 1px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.input-container {
+    width: 75%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+}
+
+.input-container input {
+    
+    border: none;
+    padding: 10px 15px;
+    flex-grow: 1;
+    border-radius: 25px 0 0 25px;
+}
+
+.input-container button {
+    background-color: #f00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+}
+
+.input-container button:hover {
+    background-color: #d00;
+}
+
+/*Seccion 2*/
+.seccion2Footer{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;        
+}
+
+.seccion2Footer li{
+    list-style-type: none;    
+    padding-top: 1rem;
+}
+
+.seccion2Footer li{
+    color: grey;
+    list-style-type: none;    
+    padding-top: 1rem;
+}
+
+.seccion2Footer .titulo{
+    color: black;
+    font-weight: bold;
+    
+}
+
+/*Signature*/
+.signature{
+    width: 100%;
+    height: auto;
+    display: flex;    
+    justify-content: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;    
+
+}
+
+.contenedorSignature {
+    text-decoration: none;
+    width: 85%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;        
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 1px grey solid;
+}
+
+.signatureLink {
+    color: grey;
+    
+}
