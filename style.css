@@ -36,6 +36,10 @@ header {
     color: white;
 } 
 
+.mobileNavv {
+    display: none;
+}
+
 
 .search {
     display: flex;
@@ -84,8 +88,7 @@ header {
 
 .contenedorDeSeccion1 .imagenDeFondo img{
     width: 100%;
-    height: auto;
-    
+    height: auto;    
 }
 
 .wrapper {
@@ -567,6 +570,10 @@ header {
         color: white;
     }     
     
+    .mobileNavv {
+        display: none;
+    }
+
     .searchBar {
         display: none;
     }        
@@ -1051,10 +1058,7 @@ header {
     /*Header*/    
     header {
         background-color: #0057B8;
-    }
-    .menuPrincipal {
-        display: none;
-    }
+    }    
     .menuContainer {    
         display: flex;
         justify-content: space-between;
@@ -1068,7 +1072,10 @@ header {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-weight: bold;
     }
-    
+
+    .menuPrincipal {
+        display: none;
+    }    
     .menuContainer .menuPrincipal .menu ul {
         list-style-type: none;    
         display: flex;
@@ -1077,6 +1084,34 @@ header {
         width: auto;    
         color: white;
     }     
+
+    .menuContainer .mobileNavv {
+        display: flex;
+        flex-direction: row;
+        width: 10%;
+        height: auto;
+    }
+    .menuContainer .mobileNavv .contenedorMenu{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: auto;        
+    }
+
+    .menuContainer .mobileNavv img{
+        width: 100%;
+        height: auto;        
+        
+    }
+
+    .contenedorMenu {
+        width: 100%;
+        height: auto;
+    }
+    .contenedorMenu img{
+        width: 100%;
+        height: auto;
+    }
     
     .searchBar {
         display: none;
@@ -1547,5 +1582,5 @@ header {
     }
     .signatureLink {
         color: grey;    
-    }
+    }   
 }
