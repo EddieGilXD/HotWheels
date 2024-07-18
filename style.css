@@ -1,3 +1,11 @@
+a {
+    text-decoration: none;
+    color: inherit;    
+}
+a:hover {
+    font-size: 1.1rem;
+}
+
 /*Version de desktop*/
 /*Header*/
 header {
@@ -18,7 +26,7 @@ header {
 }
 
 .menuContainer .menuPrincipal .menu ul {
-    list-style-type: none;
+    list-style-type: none;    
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -26,9 +34,6 @@ header {
     color: white;
 } 
 
-.menuContainer .menuPrincipal .menu ul .li {
-    
-}
 
 .search {
     display: flex;
@@ -133,9 +138,6 @@ header {
     padding: 3%;
 }
 
-.contedorCategorias {
-    
-}
 
 .imagenesCategorias {        
     width: 100%;
@@ -161,6 +163,9 @@ header {
     width: 100%;
     height: auto;
 }
+.imagenesCategorias img:hover{
+    transform: scale(1.1);
+}
 
 .categoriasTitulo .titulC {
     color: #0E5FAC;
@@ -169,6 +174,98 @@ header {
     font-size: 2.5rem;
     margin: 0;
 }
+/*Seccion de descripcion*/
+.descripcionEmpresaSeccion {
+    width: auto;
+    height: auto;
+    background-color:#F7EB1E;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+.contenedorDeDescripcion {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;   
+    text-align: center;    
+}
+
+.logoDeDescripcion {
+    width: 15%;
+    height: auto;
+}
+
+.logoDeDescripcion img {
+    width: 100%;
+    height: auto;
+}
+.imagenesFabricacion {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    width: 35%;
+    height: auto;   
+}
+
+.imagenesFabricacion img{
+    width: 100%;
+    height: auto;
+    
+}
+
+/*Seccion de ubicacion*/
+.ubicacion {
+    width: 100%;
+    height: auto;
+}
+/*Seccion de testimonios*/
+
+.testimonions {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;    
+}
+
+.contenedorTestimonios {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0E5FAC;
+    padding: 35px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.testimonio {
+    background-color: white;
+    display: flex;
+    padding: 2%;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+
+.testimonio img{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    max-width: 180px;
+    height: auto;
+    border-radius: 50%;    
+}
+
+.contenedorTestimonios .nombre {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 /* Seccion 3*/
 .seccion3 {
     width: auto; 
@@ -218,6 +315,48 @@ header {
     font-size: 1.2rem;
     font-weight: bold;
 }
+/*Secion de Formulario*/
+.contactenos {
+    width: auto;
+    height: auto;
+    background-color: #05A8E1;
+    padding: 1%;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.conenedorFormulario {
+    background-color:skyblue;
+    padding: 10px;
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: whitesmoke solid 0.5rem; 
+    border-radius: 15px;
+}
+
+.conenedorFormulario form{
+    display: flex;
+    flex-direction: column;   
+    gap: 5px;
+}
+
+.conenedorFormulario input, button{
+    font-size: 1rem;
+    border: 0;
+    border-radius: 15px;
+    height: 2rem;
+}
+
+.contactenos .conenedorFormulario .mensajeContacto {
+    width: 100%;
+    height: 6rem;
+}
+
 
 /*Footer*/
 /*Seccion 1*/
@@ -308,43 +447,72 @@ header {
 }
 
 /*Seccion 2*/
-.seccion2Footer{
+.seccion2Footer {
+    width: auto;
+    height: auto;    
+    display: flex;
+    flex-direction: column;    
+    align-items: center;    
+    list-style-type: none;
+}
+
+.seccion2Footer .descripcionFooter{
+    width: 80%;
+}
+
+.menuResumido {
     width: 100%;
     height: auto;
-    padding: 20px;
+    display: flex;    
+    
+}
+.contenedorDeMenuResumido{    
+    width: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 6rem;        
-}
-
-.seccion2Footer li{
-    list-style-type: none;    
-    padding-top: 1rem;
-}
-
-.seccion2Footer li{
-    color: grey;
-    list-style-type: none;    
-    padding-top: 1rem;
-}
-
-.seccion2Footer .titulo{
-    color: black;
-    font-weight: bold;
+    flex-direction: row;    
+    background-color: #93D500;
+    padding: 0.5rem;
     
 }
 
+.contenedorDeMenuResumido ul{   
+    padding: 0; 
+    list-style-type: none;
+    margin: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.datosContacto {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    gap: 10px;
+}
+
+.redesSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:35%;
+    height: auto;
+    gap: 10px;
+}
+
+.redesSociales img{
+    width: 100%;
+    height: auto;
+    max-height: 2rem;
+}
 /*Signature*/
 .signature{
     width: 100%;
     height: auto;
     display: flex;    
     justify-content: center;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;    
-
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
 .contenedorSignature {
     text-decoration: none;
     width: 85%;
@@ -355,8 +523,6 @@ header {
     font-size: 0.9rem;
     border-top: 1px grey solid;
 }
-
 .signatureLink {
-    color: grey;
-    
+    color: grey;    
 }

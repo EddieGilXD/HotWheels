@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <div class="menuContainer">
+        <div id="home" class="menuContainer">
             <div class="mainLogo">
                 <div class="img"><svg width="173" height="50" viewBox="0 0 173 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="Hot Wheels Logo">
@@ -41,9 +41,12 @@
             <nav class="menuPrincipal">
                 <div class="menu">
                     <ul>    
-                        <li>Vehiculos</li>
-                        <li>Monster Trucks</li>
-                        <li>Sets y Ampliacion de Pistas</li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#descripcionPagina">Descripcion</a></li>
+                        <li><a href="#ubicacionSeccion">Ubicacion</a></li>
+                        <li><a href="#testimoniosSeccion">Testimonios</a></li>  
+                        <li><a href="#contactenosSeccion">Contactenos</a></li>
                     </ul>
                 </div>
             </nav>
@@ -78,7 +81,7 @@
                 </div>
             </div>            
         </div>
-        <div class="seccionDeCategorias">
+        <div id="servicios" class="seccionDeCategorias">
             <div class="contedorCategorias">
                 <div class="categoriasTitulo">
                     <p class="titulC">Comprar por Categorías Principales</p>
@@ -97,8 +100,21 @@
                         <p>Vehiculos a Control Remoto</p>
                     </div>
                 </div>
-            </divZ>
+            </div>
         </div>
+        <div id="descripcionPagina" class="descripcionEmpresaSeccion">
+            <div class="contenedorDeDescripcion">
+                <p clas="descripcionEmpresa">Hot Wheels es una marca de línea de automóviles de juguete a escala de la firma estadounidense de juguetes Mattel, introducida en 1968.</p>
+                <div class="logoDeDescripcion">
+                    <img src="./Imagenes/logo.png">
+                </div>
+            </div>
+            
+            <div class="imagenesFabricacion">
+                <div class="imagenFabricacion"><img src="./Imagenes/Descripcion/Diseñando.jpeg"></div>
+                <div class="imagenFabricacion"><img src="./Imagenes/Descripcion/montaje2.jpg"></div>
+            </div>
+        </div>        
         </div>
         <div class="seccion3">
             <div class="banner3">
@@ -108,6 +124,52 @@
                 <h2 class="tituloSeccion3">¡Acepta el Reto en tus Manos!</h2>
                 <p class="textoSeccion3">Adéntrate al mundo del fingerboarding con Hot Wheels Skate.</p>
                 <button class="seccion3Boton">¡Coleccionalas Todas</button>
+            </div>
+        </div>
+        <div id="ubicacionSeccion" class="ubicacionContainer">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123525.01524215988!2d-90.63419860273437!3d14.647043299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a2858b795577%3A0x148c20c396c75cd8!2sCentro%20Comercial%20Portales!5e0!3m2!1ses-419!2sgt!4v1721259130981!5m2!1ses-419!2sgt" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="testimoniosSeccion" class="testimonios">
+            <div class="contenedorTestimonios">                
+                <div class="testimonio">
+                    <div>
+                        <img src="./Imagenes/Testimonios/Carlos.png">
+                    </div>
+                    <div>
+                        <p class="nombre">Carlos</p>
+                        <p>Lleva décadas coleccionando Hot Wheels. Su favorito es un Hot Wheels rojo con llamas plateadas. Para él, coleccionarlos es como viajar en el tiempo.</p>
+                    </div>                    
+                </div>
+                <div class="testimonio">
+                    <div>
+                        <img src="./Imagenes/Testimonios/Maria.jpg">
+                    </div>
+                    <div>
+                        <p class="nombre">Maria</p>
+                        <p>Crea pistas impresionantes en su sótano. Ver la emoción en los ojos de su hijo al correr los autos es su mayor recompensa.</p>
+                    </div>          
+                </div>
+                <div class="testimonio">
+                    <div>
+                        <img src="./Imagenes/Testimonios/Luis.jpg">
+                    </div>
+                    <div>
+                        <p class="nombre">Luis</p>
+                        <p>Recuerda su primer Hot Wheels, un Chevy Camaro amarillo. Aún colecciona modelos antiguos y los ve como recuerdos vivos.</p>
+                    </div>          
+                </div>
+            </div>           
+        </div>
+        <div id="contactenosSeccion" class="contactenos">
+            <div class="conenedorFormulario">
+                <h2 class="tituloFormulario">Contactanos</h2>
+                <form>
+                    <input type="text" placeholder="Nombre">
+                    <input type="tel" placeholder="Numeor de Telefono">
+                    <input type="email" placeholder="Correo electronico">
+                    <input class="mensajeContacto" type="text" placeholder="Mensaje">
+                    <button>Enviar</button>
+                </form>
             </div>
         </div>
         <div class="footer">
@@ -124,34 +186,32 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>            
             <div class="seccion2Footer">
-                <div class="lista1">
-                    <ul>
-                        <li class="titulo">Compra y Aprende</li>
-                        <li>Compra barbie</li>
-                        <li>Compra HotWheels</li>
-                        <li>Compra Fisher-Price</li>
-                        <li>¡Conoce los instructivos MEGA!</li>
-                    </ul>                    
+                <div class="descripcionFooter">
+                    <p>Hot Wheels es una marca introducida originalmente por Mattel en 1968 con el objetivo de revolucionar los vehículos de juguete al tener un aspecto más atractivo y un rendimiento superior al de la competencia.</p>
                 </div>
-                <div class="lista2">
-                    <ul>
-                        <li class="titulo">Contacto</li>
-                        <li>Contactanos</li>
-                        <li>Retirada de productos y seguridad</li>
-                        <li>Oportunidades profesionales</li>
-                    </ul>                    
+                <div clas="menuResumido">
+                    <div class="contenedorDeMenuResumido">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li><a href="#descripcionPagina">Descripcion</a></li>
+                            <li><a href="#ubicacionSeccion">Ubicacion</a></li>
+                            <li><a href="#testimoniosSeccion">Testimonios</a></li>  
+                            <li><a href="#contactenosSeccion">Contactenos</a></li>                    
+                        </ul>
+                    </div>
                 </div>
-                <div class="lista3">
-                    <ul>
-                        <li class="titulo">legal</li>
-                        <li>Terminos y condiciones</li>
-                        <li>Declaracion de privacidad</li>
-                        <li>Cookies y tecnologia</li>
-                        <li>Declaracion de accessibilidad</li>
-                        <li>Preferencias sobre cookies</li>
-                    </ul>                    
+                <div class="datosContacto">
+                    <p>Numero de Telefono: 902-203-010</p>
+                    <p>Correo electronico: centrodeserviciomexico@mattel.com</p>
+                    <p>Direccion: Km. 4.5 Carretera al Atlántico 3-20, Cdad. de Guatemala</p>
+                </div>
+                <div class="redesSociales">
+                    <div class="facebook"><a href="https://www.facebook.com/HotWheelsLatam/?locale=es_LA"><img src="./Imagenes/Social media logos/Facebook.png"></a></div>
+                    <div class="instagram"><a href="https://www.instagram.com/hotwheelsofficial/"><img src="./Imagenes/Social media logos/Instagram.png"></a></div>
+                    <div class="x"><a href="https://x.com/hot_wheels"><img src="./Imagenes/Social media logos/X.png"></a></div>
                 </div>
             </div>            
         </div>
@@ -160,7 +220,6 @@
                 <p class="signatureLink"><a href="https://github.com/EddieGilXD/HotWheels">EddieGilXD</a></p>
             </div>
         </div>
-    </main>
-    <footer></footer>
+    </main>    
 </body>
 </html>
