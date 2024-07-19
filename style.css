@@ -1156,7 +1156,7 @@ header {
     main .contenedorDeSeccion1 .imagenDeFondo .mobileSeciontion1{
         width: 100%;
         height: auto;
-        
+        display: block;
     }
     
     .wrapper {
@@ -1374,6 +1374,7 @@ header {
     .seccion3 .banner3 .mobileBanner3 {
         width: 100%;
         height: auto;    
+        display: block;
     }
     
     .textoBanner3 {
