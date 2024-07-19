@@ -42,7 +42,7 @@ header {
 .mobileSeciontion1{
     display: none;
 }
-
+6
 .mobileSeciontion1{
     display: none;
 }
@@ -1123,6 +1123,7 @@ header {
     }
 
     .menuContainer .mobileNavv img{
+        
         width: 100%;
         height: auto;        
         
@@ -1153,10 +1154,10 @@ header {
     .imagenDesktop {
         display: none;
     }
-    main .contenedorDeSeccion1 .imagenDeFondo .mobileSeciontion1{
+    .contenedorDeSeccion1 .imagenDeFondo .mobileSeciontion1{
+        display: block;
         width: 100%;
-        height: auto;
-        
+        height: auto;        
     }
     
     .wrapper {
@@ -1328,8 +1329,7 @@ header {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         gap: 15px;
     }
-    .testimonio {
-        
+    .testimonio {        
         background-color: white;
         display: flex;
         padding: 2%;
@@ -1373,7 +1373,8 @@ header {
 
     .seccion3 .banner3 .mobileBanner3 {
         width: 100%;
-        height: auto;    
+        height: auto;
+        display: block;
     }
     
     .textoBanner3 {
