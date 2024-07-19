@@ -91,6 +91,8 @@ header {
     height: auto;    
 }
 
+
+
 .wrapper {
     width: 100%;
     height: auto;
@@ -1122,40 +1124,42 @@ header {
     .contenedorDeSeccion1 {
         width: 100%;
         display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
         
+    .imagenDesktop {
+        display: none;
     }
-    .contenedorDeSeccion1 .imagenDeFondo{
-        position: relative;   
-    }
-        
-    
-    .contenedorDeSeccion1 .imagenDeFondo img{
+    .mobileSeciontion1{
         width: 100%;
         height: auto;
         
     }
     
     .wrapper {
+        background-color: #0057B8;
+        position: relative;
         width: 100%;
         height: auto;
-        position: absolute;
-        display: flex;       
+        min-height: 300px;        
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;         
     }
-    
-    .textoDelWrapper .texto {
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        font-size: 0.7rem;
-    }
-    
     .textContainer {
-        padding-top: 2%; 
-        margin-top: 10%;   
-        margin-left: 6%;
-        width: 35%;
+        margin: 5px;
+        display: flex;
+        width: 100%;
         height: 100%;
     }
-    
-    .wrapper .textoDelWrapper{
+    .textoDelWrapper .texto {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }    
+    .textoDelWrapper{
         width: 100%;    
         height: auto;
         display: flex;
@@ -1164,15 +1168,23 @@ header {
         font-size: 1rem;
     }
     .wrapper .textoDelWrapper .textoImagenWrapper img{
-        width: 100%;    
+        width: 80%;    
         height: auto;    
     }
     
-    
+    .bottonDeComprarAhora{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
     .bottonDelWrapper .bottonDeComprarAhora {
+        
         background-color: #F78832;
         color: #f8f9fa;
-        font-size: 0.7rem;
+        font-size: 1rem;
         border: 0;
         width: 10rem;
         height: 2rem;
@@ -1220,7 +1232,7 @@ header {
         color: #0E5FAC;
         font-family: sans-serif;
         font-weight: 800;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
         margin: 0;
     }
@@ -1228,13 +1240,14 @@ header {
     .descripcionEmpresaSeccion {
         width: auto;
         height: auto;
+        min-height: 250px;
         background-color:#F7EB1E;
         display: flex;
-        flex-direction: row;    
+        flex-direction: column;    
         justify-content: center;
         align-items: center;    
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        font-size: 0.9rem;
+        font-size: 1.5rem;
     }
     
     .contenedorDeDescripcion {
@@ -1247,7 +1260,7 @@ header {
     }
     
     .logoDeDescripcion {
-        width: 15%;
+        width: 100%;
         height: auto;
     }
     
@@ -1261,7 +1274,7 @@ header {
         flex-direction: column;
         gap: 2rem;
         align-items: center;
-        width: 35%;
+        width: 75%;
         height: auto;   
     }
     
@@ -1287,12 +1300,14 @@ header {
     
     .contenedorTestimonios {
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;        
         background-color: #0E5FAC;
         padding: 35px;
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        gap: 15px;
     }
     .testimonio {
+        
         background-color: white;
         display: flex;
         padding: 2%;
@@ -1300,7 +1315,7 @@ header {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width: 25%;
+        width: 100%;
     }
     
     .testimonio img{
@@ -1312,11 +1327,11 @@ header {
         border-radius: 50%;    
     }
     .contenedorTestimonios {
-        font-size: 0.7rem;        
+        font-size: 1rem;        
     }
     
     .contenedorTestimonios .nombre {
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: bold;
     }
     
@@ -1327,7 +1342,13 @@ header {
         display: flex;
         align-items: center;
     }
-    
+    .imagenBanner3 {
+        display: none;
+    }
+    .textoBanner3 {
+        display: none;
+    }
+
     .seccion3 .banner3 img {
         width: 100%;
         height: auto;    
@@ -1378,13 +1399,13 @@ header {
         display: flex;    
         flex-direction: column;
         align-items: center;
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;        
     }
     
     .conenedorFormulario {
         background-color:skyblue;
         padding: 10px;
-        width: 35%;
+        width: 75%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -1395,7 +1416,7 @@ header {
     
     .conenedorFormulario form{
         display: flex;
-        flex-direction: column;   
+        flex-direction: column;           
         gap: 5px;
     }
     
@@ -1426,14 +1447,14 @@ header {
         width: 100%;
         height: auto;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
     }
     
     .matelLogo {
-        width: 30%;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
@@ -1444,7 +1465,7 @@ header {
     }
     
     .subscribe{
-        width: 70%;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
@@ -1457,19 +1478,19 @@ header {
         background-color: #0057B8;
         border-radius: 10px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 10px;    
     }
     
     .contenedorDeSubscribe p{
-        width: 25%;
+        width: 100%;
         margin: 1px;
         color: white;
         font-size: 0.9em;
     }
     
     .input-container {
-        width: 75%;
+        width: 100%;
         height: fit-content;
         display: flex;
         align-items: center;
@@ -1543,17 +1564,17 @@ header {
     }
     .datosContacto {
         display: flex;
-        flex-direction: row;
-        font-size: 0.7rem;
-        gap: 10px;
+        flex-direction: column;
+        font-size: 1rem;
+        gap: 3px;
     }
     
     .redesSociales {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width:35%;
-        height: auto;
+        width:85%;
+        height: auto;        
         gap: 10px;
     }
     
