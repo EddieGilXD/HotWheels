@@ -39,7 +39,17 @@ header {
 .mobileNavv {
     display: none;
 }
+.mobileSeciontion1{
+    display: none;
+}
 
+.mobileSeciontion1{
+    display: none;
+}
+
+.mobileBanner3 {
+    display: none;
+}
 
 .search {
     display: flex;
@@ -536,7 +546,7 @@ header {
 
 
 /*Tablets*/
-@media (max-width:1000px) and (min-width:641px){
+@media (max-width:1000px) and (min-width:642px){
     a {
         text-decoration: none;
         color: inherit;
@@ -573,6 +583,18 @@ header {
     }     
     
     .mobileNavv {
+        display: none;
+    }    
+
+    .mobileSeciontion1{
+        display: none;
+    }
+    
+    .mobileSeciontion1{
+        display: none;
+    }
+    
+    .mobileBanner3 {
         display: none;
     }
 
@@ -1131,7 +1153,7 @@ header {
     .imagenDesktop {
         display: none;
     }
-    .mobileSeciontion1{
+    main .contenedorDeSeccion1 .imagenDeFondo .mobileSeciontion1{
         width: 100%;
         height: auto;
         
@@ -1349,7 +1371,7 @@ header {
         display: none;
     }
 
-    .seccion3 .banner3 img {
+    .seccion3 .banner3 .mobileBanner3 {
         width: 100%;
         height: auto;    
     }
@@ -1574,7 +1596,8 @@ header {
         flex-direction: row;
         justify-content: center;
         width:85%;
-        height: auto;        
+        height: auto;
+        
         gap: 10px;
     }
     
